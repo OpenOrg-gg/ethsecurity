@@ -32,7 +32,7 @@ It is also noted in "*Uselton v. Commercial Lovelace Motor Freight*"[^3] the cou
 Lastly, in "*SEC v. Shavers*"[^4] the court expressly found that Bitcoin and other digital currencies could meet the standard of "an investment of *money*."
 
 </br></br>
-{% include callout.html content="**Status:** <span style="'color:red'>Meets this Prong</span>" type="danger" %} 
+{% include callout.html content="**Status:** <span style='color:red'>Meets this Prong</span>" type="danger" %} 
 </br></br>
 ## 2. In a common entperise:
 </br>
