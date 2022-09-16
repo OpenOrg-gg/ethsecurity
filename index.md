@@ -19,7 +19,7 @@ It should be noted that *all* three prongs of the test must be met for something
 
 We can review the elements of the test individually:
 
-### 1. An investment of money:
+## 1. An investment of money:
 
 Prong #1 is simple and does not require debate. Ethereum **does** meet this criteria in a Proof-of-Stake model and requires a user buying or acquiring Ethereum to take part in staking.
 
@@ -31,10 +31,10 @@ It is also noted in "*Uselton v. Commercial Lovelace Motor Freight*"[^3] the cou
 
 Lastly, in "*SEC v. Shavers*"[^4] the court expressly found that Bitcoin and other digital currencies could meet the standard of "an investment of *money*."
 
-**Status:** <span style="color:red">Meets this Prong</span>
 
+{% include callout.html content="**Status:** <span style="color:red">Meets this Prong</span>" type="danger" %} 
 
-### 2. In a common entperise:
+## 2. In a common entperise:
 
 In order to review this prong one needs to understand:
 
@@ -53,7 +53,7 @@ The short summary of the Ethereum Validation system is:
 
 In line which each framing of common enterprise:
 
-**Horizontal Commonality:**
+### **Horizontal Commonality:**
 
 As outlined in "*Revak v SEC Realty Corp*"[^5] the court looks for "*the pro-rata distribution of profits*" and the "*tying together of investors assets, via the pooling of funds*."
 
@@ -63,7 +63,7 @@ And in "*Milnarik v M-S Commodities*"[^8] it is noted that "*the success or fail
 
 Since our Ethereum is not pooled and a validators profit or penalty is derived solely from their performance and does not impact other validators, we can conclude there is not "*Horizontal Commonality*."
 
-**Vertical Commonality:**
+### **Vertical Commonality:**
 
 As outlined in "*SEC v. Glenn W Turner Enters Inc*"[^9] vertical commonality requires the investors profits are "*tied inextricably to the efficacy of the promoter*"
 
@@ -79,9 +79,9 @@ By contributing to Ethereum, developers do not expressly own part of the network
 
 The only commonality arguement that exists is that there is some sort of "common enterprise" among validators running the network, and a cooperative mechanic between validators validating a transaction. However, as those are distinct and post facto to the development of the networks code, these validators cannot sufficiently be found to be "promoters" in any established sense of the term.
 
-**Status:** <span style="color:green">Does not meet this prong.</span>
+{% include callout.html content="**Status:** <span style="color:green">Does not this Prong</span>" type="success" %} 
 
-### 3. An expectation of profit, derived from the efforts of others:
+## 3. An expectation of profit, derived from the efforts of others:
 
 The final prong of the Howey Test is if the investor can have "*an expectation of profit, **derived from** the efforts of others*."
 
@@ -124,7 +124,31 @@ In this case, the SEC viewed that owning and managing Bitcoin mining rigs/server
 
 Therefore we believe it is undeniable that the maintaining of an Ethereum validator which has the additional burden and complexity of uptime and accuracy requirements, should also be viewed as the key managerial effort, and therefore does not meet this prong.
 
-**Status:** <span style="color:green">Does not meet this prong.</span>
+{% include callout.html content="**Status:** <span style="color:green">Does not this Prong</span>" type="success" %} 
+
+## Summary:
+
+**Prong #2:**
+- Hard to suggest there is an "*issuer*" or "*promoter*" at this point in Ethereum.
+- Staking does not have horizontal commonality in relation to profits.
+- Staking does have some horizontal commonality in relation to other validators, but they are not an issuer/promoter.
+- Horziontal commonality in efforts is negated by the factor that the profits and loses are solely based on your own validators performance and actions.
+- Your validator can be taken to another network is not locked in to any type of commonality.
+- Staking does not have strong vertical commonality with the issuer.
+- There is only broad vertical commonality, if you believe what is being sold is blockspace, and that the blockspace is owned by developers who publish code, but do not run the network.
+
+**Prong #3:**
+- There is an expectation of profits.
+- Those profits are only derived from your own ability to maintain a reliable validator.
+- The maintenance of a machine performing network validation has been shown to be a key managerial effort in the past.
+- You are selling uptime and validation, and not blockspace, as your validator could connect to another PoS network, or fork, with other validators and do the same action.
+
+This would mean finding Ethereum Proof-of-Stake to not be a security.
+
+
+## Common Arguements Debunked:
+
+
 
 {% include links.html %}
 
