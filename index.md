@@ -1,40 +1,76 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
-keywords: sample homepage
+title: "Is Ethereum a Security?"
+keywords: ethereum, security, SEC, regulation, law, Howey Test
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: This site is dedicated to review the technical and legal status of securities law related to Ethereum - we believe most of the views of Ethereum being a security can be resolved through a nuanced technical understanding of the protocol.
 ---
 
-{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+{% include note.html content="This site is maintained by OpenOrg and <a href='https://twitter.com/adamscochran'>@adamscochran</a>. You can contribute to the Github repo <a href='(https://github.com/OpenOrg-gg/ethsecurity)'>here</a>. This site should be deemed as research and opinion. It does not reflect legal advice or guidance." %}
 
-## Build the Theme
+# Is Ethereum a Security?
 
-Follow these instructions to build the theme.
+The question of if Ethereum is a security has been a topic of hot debate, especially as Ethereum transitioned to "Proof-of-Stake" a model in which users stake their Ether on a validator and take part in rewards for validating the network.
 
-### 1. Download the theme
+In order to answer if Ethereum is a security, at least in the eyes of US regulators, we must view it through the lens of a test known as the "*Howey Test*" which is a **three-pronged**[^1] that determines if Ethereum is a security.
 
-First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
+It should be noted that *all* three prongs of the test must be met for something to be deemed a security.
 
-### 2. Install Jekyll
+We can review the elements of the test individually:
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+### 1. An investment of money:
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+Prong #1 is simple and does not require debate. Ethereum **does** meet this criteria in a Proof-of-Stake model and requires a user buying or acquiring Ethereum to take part in staking.
 
-### 3. Install Bundler
+The word "*money*" does not negate or by-pass this prong.
 
-In case you haven't installed Bundler, install it:
+The case "*State V Gopher Tire and Rubber Co*"[^2] the court notes that "*laying out of capital in a way intended to secure income or employement*" is sufficient to meet this prong.
 
-```
-gem install bundler
-```
+It is also noted in "*Uselton v. Commercial Lovelace Motor Freight*"[^3] the court expressly found that the "*investment of money*" can take the forms of "*goods or services*" or another "*exchange of value*."
 
-You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
+Lastly, in "*SEC v. Shavers*"[^4] the court expressly found that Bitcoin and other digital currencies could meet the standard of "an investment of *money*."
 
-### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
+**Status:** <span style="color:red">Meets this Prong</span>
+
+
+### 2. In a common entperise:
+
+In order to review this prong one needs to understand:
+
+- <a href='./CommonEnterprise.html'>Common Enterprise</a>
+- <a href='./EthereumValidation.html'>Ethereum Validation</a>
+- <a href='./EthereumRewardsAndPenalties.html'>Ethereum Rewards & Penalties</a>
+
+The short summary of the Ethereum Validation system is:
+
+- Your funds are not pooled with other stakers.
+- If your validator is <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.slashed}}">slashed</a> only you receive a penalty.
+- Penalties take place if are offline too long (failed technical effort) or if you are malicious.
+- You are only rewarded based on the role of your validator.
+- Validators are rewarded for reporting slashable offenses, making them adversarial and not communal.
+- Individual block proposers profit from extended effort such as MEV that is not shared by others.
+
+In line which each framing of common enterprise:
+
+**Horizontal Commonality:**
+
+As outlined in "*Revak v SEC Realty Corp*"[^5] the court looks for "*the pro-rata distribution of profits*" and the "*tying together of investors assets, via the pooling of funds*."
+
+In "*Hart v. Pulte Homes of Michigan Corp*"[^6] and "*Salcer v. Merrill Lync, Pierce, Fenner & Smith Inc*"[^7] the courts expressly suggest that the "*investment **must** be part of a pooled group of funds*."
+
+And in "*Milnarik v M-S Commodities*"[^8] it is noted that "*the success or failure of other contracts must have a direct impact on the profitability of plantiffs contracts*."
+
+Since our Ethereum is not pooled and a validators profit or penalty is derived solely from their performance and does not impact other validators, we can conclude there is not "*Horizontal Commonality*."
+
+
+
+
+### 3. An expectation of profit, derived from the efforts of others:
+
+
+
+# 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
 
 Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
 
@@ -412,3 +448,12 @@ If you want to use an automated system for managing links, see [Automated Links]
 The content here is just a getting started guide only. For other details in working with the theme, see the various sections in the sidebar.
 
 {% include links.html %}
+
+[^1]: <a href='./ProngsOfHoweyTest.html'>How Many Prongs Are In The Howey Test?</a>
+[^2]: *Seeking non-secondary link to case*
+[^3]: <a href='https://casetext.com/case/uselton-v-commercial-lovelace-motor-freight'>Uselton v. Commercial Lovelace Motor Freight</a>
+[^4]: <a href='https://casetext.com/case/sec-exch-commn-v-shavers-1'>SEC v. Shavers</a>
+[^5]: <a href='https://casetext.com/case/revak-v-sec-realty-corp'>Revak v. SEC Realty Corp</a>
+[^6]: <a href='https://casetext.com/case/hart-v-pulte-homes-of-mich-corp'>Hart v. Pulte Homes of Michigan Corp</a>
+[^7]: <a href='https://casetext.com/case/salcer-v-merrill-lynch-pierce-fenner'>Salcer v. Merrill Lynch, Pierce, Fenner</a>
+[^8]: <a href='https://casetext.com/case/milnarik-v-m-s-commodities-inc'>Milnarik v. M-S Commodities, Inc.</a>
