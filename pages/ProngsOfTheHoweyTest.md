@@ -8,10 +8,13 @@ summary: This page reviews the legal specifics of if the Howey Test has three or
 ---
 
 {% include note.html content="
+
 ## TL;DR:
 
 - We believe the Howey Test is a three-pronged test.
+
 - This means the expectation of profit **must** be from the efforts of others.
+
 - This means common enterprises that reward someone **for their efforts** are not securities. 
  "%}
 
@@ -28,6 +31,7 @@ The number of prongs in the Howey Test is critical to our exploration of the leg
 Or is instead:
 
 > "3. An expectation of profit."
+>
 > "4. to be derived from the efforts of others."
 
 The important breakdown here is whether the matter of the "*expectation of profit*" alone is a problem, or if it is only when we expect profit *from the effort of others*.
