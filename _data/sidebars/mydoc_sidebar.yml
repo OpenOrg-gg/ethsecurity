@@ -64,7 +64,23 @@ entries:
       url: /mydoc_posts.html
       output: web, pdf
 
+  - title: Document Repo
+    output: web, pdf
+
+    folderitems:
+    - title: Under Construction!
+      url: /mydoc_sidebar_navigation.html
+      output: web, pdf
+      
   - title: Other Crypto Law
+    output: web, pdf
+
+    folderitems:
+    - title: Under Construction!
+      url: /mydoc_sidebar_navigation.html
+      output: web, pdf
+
+  - title: Case Summaries
     output: web, pdf
 
     folderitems:
