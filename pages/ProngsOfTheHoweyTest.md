@@ -7,15 +7,15 @@ permalink: ProngsOfHoweyTest.html
 summary: This page reviews the legal specifics of if the Howey Test has three or four prongs.
 ---
 
-{% include note.html content="
+{% include tip.html content="
+<br/><br/>
+## TL;DR:<br/>
+<br/>
+- We believe the Howey Test is a three-pronged test.<br/>
 
-## TL;DR:
+- This means the expectation of profit **must** be from the efforts of others.<br/>
 
-- We believe the Howey Test is a three-pronged test.
-
-- This means the expectation of profit **must** be from the efforts of others.
-
-- This means common enterprises that reward someone **for their efforts** are not securities. 
+- This means common enterprises that reward someone **for their efforts** are not securities.<br/><br/> 
  "%}
 
 # How many prongs does the Howey Test have?
