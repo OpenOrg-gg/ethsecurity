@@ -63,8 +63,23 @@ And in "*Milnarik v M-S Commodities*"[^8] it is noted that "*the success or fail
 
 Since our Ethereum is not pooled and a validators profit or penalty is derived solely from their performance and does not impact other validators, we can conclude there is not "*Horizontal Commonality*."
 
+**Vertical Commonality:**
 
+As outlined in "*SEC v. Glenn W Turner Enters Inc*"[^9] vertical commonality requires the investors profits are "*tied inextricably to the efficacy of the promoter*"
 
+In "*Villeneuve v. Advanced Bus Concepts Corp*"[^10] its noted that "*the fortunes of investors need be linked only to the efforts of the promoter*" and in "*Long v. Shultz Cattle Co*"[^11] expanded to note that it requires only that the "*fortunes of invesntors be tied to the fortunes of the promoters*."
+
+First there is the challenge that it is not likely that there is grounds to find that there is an "Ethereum Promoter" any more under the definition of this role. Yet, that is novel legal precedent that would need to be tested.
+
+Instead, if we assume the Ethereum creators were found to be "*Promoters*" for sake of the arguement, then the question is if their fortune is directly tied to the fortunes of the "investors."
+
+By contributing to Ethereum, developers do not expressly own part of the network unless they themselves purchased Ether. As such, they cannot be deemed to be a promoter.
+
+**Commonality**
+
+The only commonality arguement that exists is that there is some sort of "common enterprise" among validators running the network, and a cooperative mechanic between validators validating a transaction. However, as those are distinct and post facto to the development of the networks code, these validators cannot sufficiently be found to be "promoters" in any established sense of the term.
+
+**Status:** <span style="color:green">Does not meet this prong.</span>
 
 ### 3. An expectation of profit, derived from the efforts of others:
 
@@ -457,3 +472,6 @@ The content here is just a getting started guide only. For other details in work
 [^6]: <a href='https://casetext.com/case/hart-v-pulte-homes-of-mich-corp'>Hart v. Pulte Homes of Michigan Corp</a>
 [^7]: <a href='https://casetext.com/case/salcer-v-merrill-lynch-pierce-fenner'>Salcer v. Merrill Lynch, Pierce, Fenner</a>
 [^8]: <a href='https://casetext.com/case/milnarik-v-m-s-commodities-inc'>Milnarik v. M-S Commodities, Inc.</a>
+[^9]: <a href='https://www.lexisnexis.com/community/casebrief/p/casebrief-sec-v-glenn-w-turner-enters-inc'>SEC v. Glenn W. Turner Enters., Inc</a>
+[^10]: <a href='https://casetext.com/case/villeneuve-v-advanced-bus-concepts-corp'>Villeneuve v. Advanced Bus. Concepts Corp.</a>
+[^11]: <a href='https://casetext.com/case/long-v-shultz-cattle-co-inc-2'>Long v. Shultz Cattle Co, inc.</a>
