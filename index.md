@@ -37,16 +37,15 @@ Lastly, in "*SEC v. Shavers*"[^4] the court expressly found that Bitcoin and oth
 
 ## 2. In a common entperise: <br />
 
-
 In order to review this prong one needs to understand:
 
-<br />
 - <a href='./CommonEnterprise.html'>Common Enterprise</a>
 - <a href='./EthereumValidation.html'>Ethereum Validation</a>
 - <a href='./EthereumRewardsAndPenalties.html'>Ethereum Rewards & Penalties</a>
+
 <br />
 
-The short summary of the Ethereum Validation system is:
+The short summary of the Ethereum Validation system is:<br />
 
 - Your funds are not pooled with other stakers.
 - If your validator is <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.slashed}}">slashed</a> only you receive a penalty.
@@ -78,7 +77,7 @@ First there is the challenge that it is not likely that there is grounds to find
 Instead, if we assume the Ethereum creators were found to be "*Promoters*" for sake of the arguement, then the question is if their fortune is directly tied to the fortunes of the "investors."
 
 By contributing to Ethereum, developers do not expressly own part of the network unless they themselves purchased Ether. As such, they cannot be deemed to be a promoter.
-<br /><br /><br />
+<br /><br />
 **Commonality**
 <br /><br />
 The only commonality arguement that exists is that there is some sort of "common enterprise" among validators running the network, and a cooperative mechanic between validators validating a transaction. However, as those are distinct and post facto to the development of the networks code, these validators cannot sufficiently be found to be "promoters" in any established sense of the term.
@@ -107,14 +106,14 @@ While the "*efforts of others*" were absolutely needed in order for their to be 
 
 As mentioned in the summary of <a href='./EthereumValidation.html'>Ethereum Validation</a> and <a href='./EthereumRewardsAndPenalties.html'>Ethereum Rewards & Penalties</a>, we know that:
 
-<br />
+
 - Validators must use their own technical expertise to maintain adequate technology and uptime.
 - Their validator is *only* rewarded when it takes part in validation.
 - Their validator only earns a reward or penalty, for itself, based on its own actions.
 - A validtor can increase their earnings, and only their earnings through implementing MEV strategies.
 - Validators can increase their earnings by reporting bad validators in the set, making clear that the validator "committee" is not a common enterprise with profits tied to each other, but instead an seperate and adverseral set of vendors.
 - In theory a single validator could be rewarded if no other validator took part in the process, showing there is not a dependence on actions of others.
-<br />
+<br /><br />
 
 Ultimately this prong of the Howey Test posits the question "*What are you being rewarded for?*."
 
@@ -134,7 +133,6 @@ Therefore we believe it is undeniable that the maintaining of an Ethereum valida
 <br /><br />
 {% include callout.html content="**Status:** <span style='color:green'>Does not this Prong</span>" type="success" %} 
 <br />
-
 ## Summary:
 <br />
 
