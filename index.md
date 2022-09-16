@@ -32,7 +32,7 @@ It is also noted in "*Uselton v. Commercial Lovelace Motor Freight*"[^3] the cou
 Lastly, in "*SEC v. Shavers*"[^4] the court expressly found that Bitcoin and other digital currencies could meet the standard of "an investment of *money*."
 
 </br></br>
-{% include callout.html content="**Status:** <span style="color:red">Meets this Prong</span>" type="danger" %} 
+{% include callout.html content="**Status:** <span style="'color:red'>Meets this Prong</span>" type="danger" %} 
 </br></br>
 ## 2. In a common entperise:
 </br>
@@ -79,7 +79,7 @@ By contributing to Ethereum, developers do not expressly own part of the network
 </br></br>
 The only commonality arguement that exists is that there is some sort of "common enterprise" among validators running the network, and a cooperative mechanic between validators validating a transaction. However, as those are distinct and post facto to the development of the networks code, these validators cannot sufficiently be found to be "promoters" in any established sense of the term.
 </br></br>
-{% include callout.html content="**Status:** <span style="color:green">Does not this Prong</span>" type="success" %} 
+{% include callout.html content="**Status:** <span style='color:green'>Does not this Prong</span>" type="success" %} 
 </br></br>
 ## 3. An expectation of profit, derived from the efforts of others:
 </br></br>
@@ -124,7 +124,7 @@ In this case, the SEC viewed that owning and managing Bitcoin mining rigs/server
 
 Therefore we believe it is undeniable that the maintaining of an Ethereum validator which has the additional burden and complexity of uptime and accuracy requirements, should also be viewed as the key managerial effort, and therefore does not meet this prong.
 </br></br>
-{% include callout.html content="**Status:** <span style="color:green">Does not this Prong</span>" type="success" %} 
+{% include callout.html content="**Status:** <span style='color:green'>Does not this Prong</span>" type="success" %} 
 </br></br>
 ## Summary:
 </br></br>
