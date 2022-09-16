@@ -19,7 +19,7 @@ It should be noted that *all* three prongs of the test must be met for something
 <br />
 We can review the elements of the test individually:
 <br />
-## 1. An investment of money:<br />
+## 1. An investment of money:
 
 Prong #1 is simple and does not require debate. Ethereum **does** meet this criteria in a Proof-of-Stake model and requires a user buying or acquiring Ethereum to take part in staking.
 
@@ -35,7 +35,7 @@ Lastly, in "*SEC v. Shavers*"[^4] the court expressly found that Bitcoin and oth
 {% include callout.html content="**Status:** <span style='color:red'>Meets this Prong</span>" type="danger" %} 
 <br />
 
-## 2. In a common entperise: <br />
+## 2. In a common enteprise:
 
 In order to review this prong one needs to understand:
 
@@ -155,7 +155,12 @@ Therefore we believe it is undeniable that the maintaining of an Ethereum valida
 This would mean finding Ethereum Proof-of-Stake to not be a security.
 <br /><br /><br />
 
-## Common Arguements Debunked:
+## Common Arguements Debunked: (Comming soon!)
+
+- <a href='#'>Being Part of a Validator Committee is a Common Enterprise</a>
+- <a href='#'>The Ethereum Foundation is a issuer/promoter</a>
+- <a href='#'>The Sale of Blockspace is a Common Enterprise</a>
+- <a href='#'>Validators are Money Transmitters</a>
 
 <br /><br /><br />
 
