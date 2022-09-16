@@ -3,13 +3,13 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: Is Ethereum a Security?
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: Is Ethereum a Security?
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright 2021 Google LLC
+company_name: Copyright 2021 OpenOrg LLC
 # this appears in the footer
 
 github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -18,7 +18,7 @@ github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-google_analytics: UA-66296557-1
+google_analytics:
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
@@ -35,7 +35,7 @@ exclude:
 
 feedback_subject_line: Jekyll documentation theme
 
-feedback_email: tomjoht@gmail.com
+#feedback_email: tomjoht@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -44,7 +44,7 @@ feedback_email: tomjoht@gmail.com
 # feedback_text: "Need help?"
 # if you uncomment the previous line, it changes the Feedback text
 
-# feedback_link: "http://helpy.io/"
+feedback_link: "https://github.com/OpenOrg-gg/ethsecurity/issues"
 # if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
@@ -71,7 +71,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
+      comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
@@ -106,7 +106,7 @@ sidebars:
 - product2_sidebar
 - other
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: "Legal and technical analysis of Securities law and regulation relating to the Ethereum ecosystem."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
@@ -115,6 +115,3 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 
 github: [metadata]
-
-
-# Copyright 2021 Google LLC
