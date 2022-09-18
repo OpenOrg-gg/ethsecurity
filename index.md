@@ -155,12 +155,9 @@ Therefore we believe it is undeniable that the maintaining of an Ethereum valida
 This would mean finding Ethereum Proof-of-Stake to not be a security.
 <br /><br /><br />
 
-## Common Arguements Debunked: (Comming soon!)
+## Common Arguements Debunked:
 
-- <a href='#'>Being Part of a Validator Committee is a Common Enterprise</a>
-- <a href='#'>The Ethereum Foundation is a issuer/promoter</a>
-- <a href='#'>The Sale of Blockspace is a Common Enterprise</a>
-- <a href='#'>Validators are Money Transmitters</a>
+- <a href='./AreValidatorsACommonEnterprise.html'>Being Part of a Validator Committee is a Common Enterprise</a>
 
 <br /><br /><br />
 
