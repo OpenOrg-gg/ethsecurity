@@ -53,5 +53,5 @@ entries:
 
     folderitems:
     - title: How to Contribute
-      url: /HowToContribute.html
+      url: /Contribute.html
       output: web, pdf
