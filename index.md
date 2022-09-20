@@ -11,13 +11,7 @@ summary: This site is dedicated to review the technical and legal status of secu
 
 # Is Ethereum a Security?
 <br />
-The question of if Ethereum is a security has been a topic of hot debate, especially as Ethereum transitioned to "Proof-of-Stake" a model in which users stake their Ether on a validator and take part in rewards for validating the network.
-<br />
-In order to answer if Ethereum is a security, at least in the eyes of US regulators, we must view it through the lens of a test known as the "*Howey Test*" which is a **three-pronged**[^1] that determines if Ethereum is a security.
-<br />
-It should be noted that *all* three prongs of the test must be met for something to be deemed a security.
-<br />
-We can review the elements of the test individually:
+The question of if Ethereum is a security has been a topic of hot debate, especially as Ethereum transitioned to "Proof-of-Stake" a model in which users stake their Ether on a validator and take part in rewards for validating the network. In order to answer if Ethereum is a security, at least in the eyes of US regulators, we must view it through the lens of a test known as the "*Howey Test*" which is a **three-pronged**[^1] that determines if Ethereum is a security. It should be noted that *all* three prongs of the test must be met for something to be deemed a security. We can review the elements of the test individually:
 <br />
 ## 1. An investment of money:
 
@@ -35,7 +29,7 @@ Lastly, in "*SEC v. Shavers*"[^4] the court expressly found that Bitcoin and oth
 {% include callout.html content="**Status:** <span style='color:red'>Meets this Prong</span>" type="danger" %} 
 <br />
 
-## 2. In a common enteprise:
+## 2. In a common enterprise:
 
 In order to review this prong one needs to understand:
 
@@ -82,7 +76,7 @@ By contributing to Ethereum, developers do not expressly own part of the network
 <br /><br />
 The only commonality arguement that exists is that there is some sort of "common enterprise" among validators running the network, and a cooperative mechanic between validators validating a transaction. However, as those are distinct and post facto to the development of the networks code, these validators cannot sufficiently be found to be "promoters" in any established sense of the term.
 <br /><br />
-{% include callout.html content="**Status:** <span style='color:green'>Does not this Prong</span>" type="success" %} 
+{% include callout.html content="**Status:** <span style='color:green'>Does not meet this Prong</span>" type="success" %} 
 <br />
 ## 3. An expectation of profit, derived from the efforts of others:
 <br />
@@ -94,8 +88,8 @@ As outlined in "<a href='./ProngsOfHoweyTest.html'>How Many Prongs Are In The Ho
 - Users are allowed to expect profit, and,
 - The common enterprise may have efforts of others.
 - But, the **profit** must not be derived from the efforts of others.
-
 <br />
+
 In "*United Housing Foundation v. Forman*"[^12] the courts expressly noted that the core of this is based "*on a reasonable expectation of profits to be derived from the entrepreneurial or mangerial efforts of others*."
 
 This requires that we must not only expect profit, but the profit we expect must be from the efforts of others and not be from our own efforts or goods.
@@ -106,14 +100,13 @@ While the "*efforts of others*" were absolutely needed in order for their to be 
 
 As mentioned in the summary of <a href='./EthereumValidation.html'>Ethereum Validation</a> and <a href='./EthereumRewardsAndPenalties.html'>Ethereum Rewards & Penalties</a>, we know that:
 
-
 - Validators must use their own technical expertise to maintain adequate technology and uptime.
 - Their validator is *only* rewarded when it takes part in validation.
 - Their validator only earns a reward or penalty, for itself, based on its own actions.
 - A validtor can increase their earnings, and only their earnings through implementing MEV strategies.
 - Validators can increase their earnings by reporting bad validators in the set, making clear that the validator "committee" is not a common enterprise with profits tied to each other, but instead an seperate and adverseral set of vendors.
-- In theory a single validator could be rewarded if no other validator took part in the process, showing there is not a dependence on actions of others.
-<br /><br />
+- In theory a single validator could be rewarded if no other validator took part in the process, showing there is not a dependence on actions of others
+- <br />
 
 Ultimately this prong of the Howey Test posits the question "*What are you being rewarded for?*."
 
@@ -131,7 +124,7 @@ In this case, the SEC viewed that owning and managing Bitcoin mining rigs/server
 
 Therefore we believe it is undeniable that the maintaining of an Ethereum validator which has the additional burden and complexity of uptime and accuracy requirements, should also be viewed as the key managerial effort, and therefore does not meet this prong.
 <br /><br />
-{% include callout.html content="**Status:** <span style='color:green'>Does not this Prong</span>" type="success" %} 
+{% include callout.html content="**Status:** <span style='color:green'>Does not meet this Prong</span>" type="success" %} 
 <br />
 ## Summary:
 <br />
@@ -155,12 +148,11 @@ Therefore we believe it is undeniable that the maintaining of an Ethereum valida
 This would mean finding Ethereum Proof-of-Stake to not be a security.
 <br /><br /><br />
 
-## Common Arguements Debunked:
+## Common Arguments Debunked:
 
 - <a href='./AreValidatorsACommonEnterprise.html'>Being Part of a Validator Committee is a Common Enterprise</a>
 
 <br /><br /><br />
-
 
 {% include links.html %}
 
