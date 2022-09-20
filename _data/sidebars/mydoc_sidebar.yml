@@ -41,7 +41,7 @@ entries:
       output: web, pdf
       
     - title: Why Broad Commonality is Flawed for Tech
-      url: /WhyBroadCommonalityIsFlawed.html
+      url: /BroadVerticalCommonalityFlawed.html
       output: web, pdf
 
   - title: Ethereum Legal Specifics
