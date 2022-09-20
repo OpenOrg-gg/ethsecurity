@@ -39,6 +39,10 @@ entries:
     - title: Defining "Common Enterprise"
       url: /CommonEnterprise.html
       output: web, pdf
+      
+    - title: Why Broad Commonality is Flawed for Tech
+      url: /WhyBroadCommonalityIsFlawed.html
+      output: web, pdf
 
   - title: Ethereum Legal Specifics
     output: web, pdf
