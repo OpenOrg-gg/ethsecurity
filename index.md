@@ -7,11 +7,11 @@ permalink: index.html
 summary: This site is dedicated to review the technical and legal status of securities law related to Ethereum - we believe most of the views of Ethereum being a security can be resolved through a nuanced technical understanding of the protocol.
 ---
 
-{% include note.html content="This site is maintained by OpenOrg and <a href='https://twitter.com/adamscochran'>@adamscochran</a>. You can contribute to the Github repo <a href='(https://github.com/OpenOrg-gg/ethsecurity)'>here</a>. This site should be deemed as research and opinion. It does not reflect legal advice or guidance." %}
+{% include note.html content="This site is maintained by OpenOrg and <a href='https://twitter.com/adamscochran'>@adamscochran</a>. You can contribute to the Github repo <a href='https://github.com/OpenOrg-gg/ethsecurity'>here</a>. This site should be deemed as research and opinion. It does not reflect legal advice or guidance." %}
 
 # Is Ethereum a Security?
 <br />
-The question of if Ethereum is a security has been a topic of hot debate, especially as Ethereum transitioned to "Proof-of-Stake" a model in which users stake their Ether on a validator and take part in rewards for validating the network. In order to answer if Ethereum is a security, at least in the eyes of US regulators, we must view it through the lens of a test known as the "*Howey Test*" which is a **three-pronged**[^1] that determines if Ethereum is a security. It should be noted that *all* three prongs of the test must be met for something to be deemed a security. We can review the elements of the test individually:
+The question of if Ethereum is a security has been a topic of hot debate, especially as Ethereum transitioned to "Proof-of-Stake" a model in which users stake their Ether on a validator and take part in rewards for validating the network. In order to answer if Ethereum is a security, at least in the eyes of US regulators, we must view it through the lens of a test known as the "*Howey Test*" which is a **three-pronged**[^1] test that determines if Ethereum is a security. It should be noted that *all* three prongs of the test must be met for something to be deemed a security. We can review the elements of the test individually:
 <br />
 ## 1. An investment of money:
 
@@ -19,7 +19,7 @@ Prong #1 is simple and does not require debate. Ethereum **does** meet this crit
 
 The word "*money*" does not negate or by-pass this prong.
 
-The case "*State V Gopher Tire and Rubber Co*"[^2] the court notes that "*laying out of capital in a way intended to secure income or employement*" is sufficient to meet this prong.
+The case "*State V Gopher Tire and Rubber Co*"[^2] the court notes that "*laying out of capital in a way intended to secure income or employment*" is sufficient to meet this prong.
 
 It is also noted in "*Uselton v. Commercial Lovelace Motor Freight*"[^3] the court expressly found that the "*investment of money*" can take the forms of "*goods or services*" or another "*exchange of value*."
 
@@ -64,17 +64,17 @@ Since our Ethereum is not pooled and a validators profit or penalty is derived s
 <br />
 As outlined in "*SEC v. Glenn W Turner Enters Inc*"[^9] vertical commonality requires the investors profits are "*tied inextricably to the efficacy of the promoter*"
 
-In "*Villeneuve v. Advanced Bus Concepts Corp*"[^10] its noted that "*the fortunes of investors need be linked only to the efforts of the promoter*" and in "*Long v. Shultz Cattle Co*"[^11] expanded to note that it requires only that the "*fortunes of invesntors be tied to the fortunes of the promoters*."
+In "*Villeneuve v. Advanced Bus Concepts Corp*"[^10] its noted that "*the fortunes of investors need be linked only to the efforts of the promoter*" and in "*Long v. Shultz Cattle Co*"[^11] expanded to note that it requires only that the "*fortunes of investors be tied to the fortunes of the promoters*."
 
 First there is the challenge that it is not likely that there is grounds to find that there is an "Ethereum Promoter" any more under the definition of this role. Yet, that is novel legal precedent that would need to be tested.
 
-Instead, if we assume the Ethereum creators were found to be "*Promoters*" for sake of the arguement, then the question is if their fortune is directly tied to the fortunes of the "investors."
+Instead, if we assume the Ethereum creators were found to be "*Promoters*" for sake of the argument, then the question is if their fortune is directly tied to the fortunes of the "investors."
 
 By contributing to Ethereum, developers do not expressly own part of the network unless they themselves purchased Ether. As such, they cannot be deemed to be a promoter.
 <br /><br />
 **Commonality**
 <br /><br />
-The only commonality arguement that exists is that there is some sort of "common enterprise" among validators running the network, and a cooperative mechanic between validators validating a transaction. However, as those are distinct and post facto to the development of the networks code, these validators cannot sufficiently be found to be "promoters" in any established sense of the term.
+The only commonality argument that exists is that there is some sort of "common enterprise" among validators running the network, and a cooperative mechanic between validators validating a transaction. However, as those are distinct and post facto to the development of the networks code, these validators cannot sufficiently be found to be "promoters" in any established sense of the term.
 <br /><br />
 {% include callout.html content="**Status:** <span style='color:green'>Does not meet this Prong</span>" type="success" %} 
 <br />
@@ -90,11 +90,11 @@ As outlined in "<a href='./ProngsOfHoweyTest.html'>How Many Prongs Are In The Ho
 - But, the **profit** must not be derived from the efforts of others.
 <br />
 
-In "*United Housing Foundation v. Forman*"[^12] the courts expressly noted that the core of this is based "*on a reasonable expectation of profits to be derived from the entrepreneurial or mangerial efforts of others*."
+In "*United Housing Foundation v. Forman*"[^12] the courts expressly noted that the core of this is based "*on a reasonable expectation of profits to be derived from the entrepreneurial or managerial efforts of others*."
 
 This requires that we must not only expect profit, but the profit we expect must be from the efforts of others and not be from our own efforts or goods.
 
-In "*US v. Holtzclaw*"[^13] a church bought into a program to resell gold certificates from the "Sell America" program, the courts found that a multi-level marketing program was not a security for the aggreved party, as they only earned from sales resulting from their own efforts.
+In "*US v. Holtzclaw*"[^13] a church bought into a program to resell gold certificates from the "Sell America" program, the courts found that a multi-level marketing program was not a security for the aggrieved party, as they only earned from sales resulting from their own efforts.
 
 While the "*efforts of others*" were absolutely needed in order for their to be profit (Sell America had to acquire gold, issue certificates, create a system to sell and register those and redeem them) the profit expected did not stem from those efforts and **required** the efforts of the investor party to be selling.
 
@@ -103,10 +103,10 @@ As mentioned in the summary of <a href='./EthereumValidation.html'>Ethereum Vali
 - Validators must use their own technical expertise to maintain adequate technology and uptime.
 - Their validator is *only* rewarded when it takes part in validation.
 - Their validator only earns a reward or penalty, for itself, based on its own actions.
-- A validtor can increase their earnings, and only their earnings through implementing MEV strategies.
-- Validators can increase their earnings by reporting bad validators in the set, making clear that the validator "committee" is not a common enterprise with profits tied to each other, but instead an seperate and adverseral set of vendors.
-- In theory a single validator could be rewarded if no other validator took part in the process, showing there is not a dependence on actions of others
-- <br />
+- A validator can increase their earnings, and only their earnings through implementing MEV strategies.
+- Validators can increase their earnings by reporting bad validators in the set, making clear that the validator "committee" is not a common enterprise with profits tied to each other, but instead an separate and adversarial set of vendors.
+- In theory a single validator could be rewarded if no other validator took part in the process, showing there is not a dependence on actions of others.
+<br />
 
 Ultimately this prong of the Howey Test posits the question "*What are you being rewarded for?*."
 
@@ -133,7 +133,7 @@ Therefore we believe it is undeniable that the maintaining of an Ethereum valida
 - Hard to suggest there is an "*issuer*" or "*promoter*" at this point in Ethereum.
 - Staking does not have horizontal commonality in relation to profits.
 - Staking does have some horizontal commonality in relation to other validators, but they are not an issuer/promoter.
-- Horziontal commonality in efforts is negated by the factor that the profits and loses are solely based on your own validators performance and actions.
+- Horizontal commonality in efforts is negated by the factor that the profits and loses are solely based on your own validators performance and actions.
 - Your validator can be taken to another network is not locked in to any type of commonality.
 - Staking does not have strong vertical commonality with the issuer.
 - There is only broad vertical commonality, if you believe what is being sold is blockspace, and that the blockspace is owned by developers who publish code, but do not run the network.
