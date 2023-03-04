@@ -106,7 +106,7 @@ As mentioned in the summary of <a href='./EthereumValidation.html'>Ethereum Vali
 - A validator can increase their earnings, and only their earnings through implementing MEV strategies.
 - Validators can increase their earnings by reporting bad validators in the set, making clear that the validator "committee" is not a common enterprise with profits tied to each other, but instead an separate and adversarial set of vendors.
 - In theory a single validator could be rewarded if no other validator took part in the process, showing there is not a dependence on actions of others
-- <br />
+<br />
 
 Ultimately this prong of the Howey Test posits the question "*What are you being rewarded for?*."
 
