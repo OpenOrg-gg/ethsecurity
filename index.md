@@ -11,7 +11,7 @@ summary: This site is dedicated to review the technical and legal status of secu
 
 # Is Ethereum a Security?
 <br />
-The question of if Ethereum is a security has been a topic of hot debate, especially as Ethereum transitioned to "Proof-of-Stake" a model in which users stake their Ether on a validator and take part in rewards for validating the network. In order to answer if Ethereum is a security, at least in the eyes of US regulators, we must view it through the lens of a test known as the "*Howey Test*" which is a **three-pronged**[^1] that determines if Ethereum is a security. It should be noted that *all* three prongs of the test must be met for something to be deemed a security. We can review the elements of the test individually:
+The question of if Ethereum is a security has been a topic of hot debate, especially as Ethereum transitioned to "Proof-of-Stake" a model in which users stake their Ether on a validator and take part in rewards for validating the network. In order to answer if Ethereum is a security, at least in the eyes of US regulators, we must view it through the lens of a test known as the "*Howey Test*" which is a **three-pronged**[^1] test that determines if Ethereum is a security. It should be noted that *all* three prongs of the test must be met for something to be deemed a security. We can review the elements of the test individually:
 <br />
 ## 1. An investment of money:
 
