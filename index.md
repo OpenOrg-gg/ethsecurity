@@ -7,7 +7,7 @@ permalink: index.html
 summary: This site is dedicated to review the technical and legal status of securities law related to Ethereum - we believe most of the views of Ethereum being a security can be resolved through a nuanced technical understanding of the protocol.
 ---
 
-{% include note.html content="This site is maintained by OpenOrg and <a href='https://twitter.com/adamscochran'>@adamscochran</a>. You can contribute to the Github repo <a href='(https://github.com/OpenOrg-gg/ethsecurity)'>here</a>. This site should be deemed as research and opinion. It does not reflect legal advice or guidance." %}
+{% include note.html content="This site is maintained by OpenOrg and <a href='https://twitter.com/adamscochran'>@adamscochran</a>. You can contribute to the Github repo <a href='https://github.com/OpenOrg-gg/ethsecurity'>here</a>. This site should be deemed as research and opinion. It does not reflect legal advice or guidance." %}
 
 # Is Ethereum a Security?
 <br />
